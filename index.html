@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
+    <style>
+        @keyframes
+        color-change {
+            0% {
+                color: red;
+            }
+
+            50% {
+                color: blue;
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        h1 {
+            animation: color-change 1s infinite;
+            text-align: center;
+            font-size: 64px;
+            margin: 0;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+    </style>
 </head>
+
 <body>
-    <center>
+    <div>
         <h1>hahahahahahahahahah</h1>
-        <img width="800" src="http://pm1.narvii.com/6588/acf967f8b9d58ab813a106bc00de82bed6e8315e_00.jpg" alt="eggman">
-    </center>
+        <img width="1500" src="http://pm1.narvii.com/6588/acf967f8b9d58ab813a106bc00de82bed6e8315e_00.jpg" alt="eggman">
+    </div>
     <script>
         window.alert("CAIU NA MICADA DO MAMACO");
         setTimeout(() => {
@@ -18,4 +48,5 @@
         }, 1000);
     </script>
 </body>
+
 </html>
